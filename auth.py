@@ -1,2 +1,0 @@
-Login feature
-Register feature
