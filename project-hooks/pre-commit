@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Running Prettier check..."
+
+npx prettier --check .
+
+if [ $? -ne 0 ]; then
+    echo "Formatting check failed."
+    exit 1
+fi
+
+echo "Formatting OK."
+exit 0
