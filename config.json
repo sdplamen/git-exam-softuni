@@ -1,1 +1,1 @@
-{ "version":"1.0", "security":"enabled" }
+{ "version": "1.0", "security": "enabled", "auth":"jwt" }
